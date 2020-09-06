@@ -1,0 +1,9 @@
+.msg{
+  color: #595858;
+  font-family: Arial, sans-serif;
+  font-style: bold;
+}
+
+.msg-position{
+  padding-top: 20px;
+}
