@@ -18,7 +18,7 @@
     class="form-control"
     required>
     <div *ngIf="textForm.submitted && text.invalid" class="invalid-input">
-      <div *ngIf="text.errors.required">Text is required</div>
+      <span *ngIf="text.errors.required" id="textValidator">Text is required</span>
     </div>
   </div>
   <div class="form-group">
@@ -32,7 +32,7 @@
     class="form-control"
     required>
     <div *ngIf="textForm.submitted && subText.invalid" class="invalid-input">
-      <div *ngIf="subText.errors.required">Your subtext is required</div>
+      <span *ngIf="subText.errors.required" id="subTextValidator">Your subtext is required</span>
     </div>
   </div>
 
